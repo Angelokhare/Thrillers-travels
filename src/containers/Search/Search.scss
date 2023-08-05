@@ -7,7 +7,27 @@
     width: 60%;
     background-color: #e9f0f8;
 
-  
+    @media (max-width: 1000px) {
+        padding: 2vw 2vw;
+        width: 61%;
+
+
+    }
+
+    @media (max-width: 900px) {
+        padding: 2vw 1vw;
+        width: 63%;
+
+
+    }
+
+    @media (max-width: 880px) {
+        width: 95.9%;
+        padding: 2vw 2vw;
+
+
+    }
+
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -25,12 +45,24 @@
             font-size: 2vw;
             margin: 0;
             font-weight: bold;
+
+            @media (max-width: 880px) {
+                font-size: 3.5vw;
+
+            }
+
             }
       .found-results{
             color : #64708d;        
             font-size: 1vw;
             margin: 0;
             font-weight: bold;
+
+
+            @media (max-width: 880px) {
+                font-size: 1.5vw;
+
+            }            
                 }
       }
   
@@ -74,12 +106,26 @@
         font-family: 'Noto Sans', sans-serif;
         margin: 0;
         margin-right: 10px;
+
+
+        @media (max-width: 880px) {
+            font-size: 3.5vw;
+
+        }        
       }
       img {
         max-width: 4vw;
         height: auto;
         margin-right: 1vw;
         margin-left: 1vw;
+
+
+        @media (max-width: 880px) {
+            max-width: 5vw;
+            margin-right: 1.5vw;
+            margin-left: 0.5vw;
+
+        }         
       }
     }
   }

@@ -176,11 +176,11 @@ const Form: React.FC = () => {
  {/* //^ kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk          Booking */}
 <div style={{display: "flex"}}>
 
-<div className='departure-padding'>
+<div className='booking-padding'>
           <label htmlFor="class">Class</label>
-          <div className='date-div'>  
+          <div className='class-div'>  
 
-          <button type="button" style={{ borderRight:"none", backgroundColor: "#fff", borderRadius: "5px 0px 0px 5px"}} className="icon-button"><img src="../icons/car-grey.png" alt="" /></button>
+          <button type="button" style={{ borderRight:"none", backgroundColor: "#fff", borderRadius: "5px 0px 0px 5px"}} className="icon-button"><img src="../icons/class.png" alt="" /></button>
           
             <select id="class" name="class" className='location-input' defaultValue=""
               value={classValue} // Set the value from state
@@ -206,7 +206,7 @@ const Form: React.FC = () => {
 <div>
 
           <label htmlFor="passangers">Passangers</label>
-          <div className='date-div'>  
+          <div className='class-div'>  
 
           <button type="button" style={{ borderRight:"none", backgroundColor: "#fff", borderRadius: "5px 0px 0px 5px"}} className="icon-button"><img src="../icons/person.png" alt="" /></button>
 
@@ -235,6 +235,8 @@ const Form: React.FC = () => {
 <button type='submit' className="find-flight-button">FIND FLIGHT</button>
 </div>
       </form>
+      <hr className="footer-line" />
+
     </div>
   );
 };

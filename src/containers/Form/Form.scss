@@ -15,6 +15,10 @@
       img {
         width: 4vw;
         // height: 50px;
+
+        @media (max-width: 880px) {
+          width: 6vw;
+          }        
       }
     }
   
@@ -36,10 +40,20 @@
         cursor: pointer;
     font-family: 'Noto Sans', sans-serif;
 
+            
+    @media (max-width: 880px) {
+      width: 17.5%;
+
+    }
   
         img {
           margin-top: 1vw;
           width: 2vw;
+
+    @media (max-width: 880px) {
+          width: 3.5vw;
+          }
+
         }
         .img2 {
             display: none;
@@ -50,6 +64,11 @@
           font-size: 1vw;
           color: #9ea7bf;
           text-align: center;
+          
+    @media (max-width: 880px) {
+      font-size: 1.5vw;
+
+      }
 
         }
 
@@ -63,6 +82,10 @@
                 display: block;
                 margin-top: 1vw;
                 width: 2vw;
+                
+    @media (max-width: 880px) {
+      width: 3.5vw;
+      }
                 }
         
               p {
@@ -78,6 +101,12 @@
       margin-top: 3vw;         
       font-size: 2vw;
       margin-left: 3vw;
+
+                
+    @media (max-width: 880px) {
+      font-size: 3.5vw;
+
+      }
         }
 
     .brand {
@@ -88,10 +117,24 @@
       margin-top: -1.5vw;
       margin-bottom: 3vw;
       font-weight: 700;
+
+                      
+    @media (max-width: 880px) {
+      font-size: 3.5vw;
+      margin-top: -3vw;
+
+      }
     }
   
     form {
       margin-left: 3vw;
+
+
+                      
+      @media (max-width: 880px) {
+        margin-left: 10vw;
+  
+        }        
 
           label {
         color: #000;
@@ -99,6 +142,12 @@
           font-weight: bold;
           font-size: 1vw;
           margin-bottom: 1.5vw;
+
+                      
+          @media (max-width: 880px) {
+            font-size: 1.5vw;
+      
+            }          
         }
 
 //^ kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk          Form Div
@@ -112,6 +161,12 @@
         margin-top: 0.5vw;
          margin-right: 8%;
         //  margin-left: 20%; 
+
+                      
+        @media (max-width: 880px) {
+          margin-right: 12%;
+    
+          }          
     }
     .location-input{
         flex: 1 1 auto;
@@ -139,6 +194,9 @@
         img {
             width: 2vw;
             // vertical-align: middle;
+            @media (max-width: 880px) {
+              width: 3vw;
+            }
           }
     }
 
@@ -146,9 +204,15 @@
     .departure-padding{
         margin-right: -7%;
 
+        
+        @media (max-width: 880px) {
+          margin-right: 13%;
+        }
     }
 
 //^ kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk          Date Div
+    
+
     .date-div{
             /* display: -webkit-flex; */
             /* -webkit-flex-wrap: wrap; */
@@ -160,6 +224,9 @@
             //  margin-left: 20%; 
 
 
+            @media (max-width: 880px) {
+              margin-right: -36%;
+            }
         }
         .location-input{
             flex: 1 1 auto;
@@ -187,15 +254,50 @@
             img {
                 width: 2vw;
                 // vertical-align: middle;
+                @media (max-width: 880px) {
+                  width: 3vw;
+                }
               }
         }
 
+
+
+//^ kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk          Class Div
+    
+.booking-padding{
+    margin-right: 6%;
+
+    
+    @media (max-width: 880px) {
+      margin-right: 13%;
+    }
+}
+
+.class-div{
+  /* display: -webkit-flex; */
+  /* -webkit-flex-wrap: wrap; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-bottom: 1rem;
+  margin-top: 0.5vw;
+   margin-right: -10%;
+  //  margin-left: 20%; 
+
+
+  @media (max-width: 880px) {
+    margin-right: -36%;
+  }
+}
 
 
 
   
       .flight-button-div{
         margin-right: 2.5vw;
+                              
+        @media (max-width: 880px) {
+          margin-right: 10.5vw;
+          }            
       }
   
       .find-flight-button {
@@ -218,7 +320,38 @@
         &:hover {
           background-color: #263DC5
         }
+
+                              
+        @media (max-width: 880px) {
+          padding: 1.5vw 2vw;
+          font-size: 1.7vw;  
+          }    
       }
     }
+
+
+        
+    @media (max-width: 880px) {
+      background-color: #e9f0f8;
+      border-right: none;
+      width: 100%;
+    
+        } 
+
+
+
+        
+    .footer-line{
+      display: none;
+      
+  @media (max-width: 880px) {
+      display: block;
+      border: none;
+      border-top: 2px solid  #d7dff4;
+      max-width: 85vw;
+      margin: auto;
+      margin-top: 6vw;
+  }
+  }
   }
   

@@ -1,6 +1,8 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import { Link, Routes, Route, useNavigate, redirect, useLocation } from 'react-router-dom'
 import Axios from "axios"
+import '../home.scss';
+
 // import ErrorBoundary from '../ErrorBoundary';
 
 
@@ -27,12 +29,12 @@ export default function HomePage() {
         <div>
     </div>
     }>
-      <div style={{display : "flex"}}>
+      <div className="home-div">
 
       <Form />
       <Search />
       </div>
-      
+
       </Suspense>
     </div>
 
