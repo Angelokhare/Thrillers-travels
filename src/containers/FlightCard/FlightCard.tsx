@@ -5,6 +5,10 @@ const FlightCard: React.FC = () => {
   return (
     <div className='flight-div'>
     <div className="flight-card">
+      
+    <img className="img-2" src="../flight-logos/british-airways-logo.png" alt="Flight" />
+
+    <div className="flight-flex-card">
       <img src="../flight-logos/british-airways-logo.png" alt="Flight" />
       <div className="info">
         <p style={{color : "#b3bbd3"}}>Depart</p>
@@ -28,15 +32,28 @@ const FlightCard: React.FC = () => {
         <p>12/11/2019</p>
         <p style={{color : "#636e8d"}} className="bold-text">2:45PM</p>
       </div>
+      
       <div className="price">
         <p style={{color : "#9298b0"}} >Price</p>
         <p style={{color : "#636e8d"}} className="bold-text">$ 856</p>
       </div>
+      </div>
+
+      <div className="price price-2">
+        <p style={{color : "#9298b0"}} >Price</p>
+        <p style={{color : "#636e8d"}} className="bold-text">$ 856</p>
+      </div>
+
+
     </div>
 
 
 
     <div className="flight-card">
+      
+    <img className="img-2" src="../flight-logos/wizz-air-logo.png" alt="Flight" />
+
+    <div className="flight-flex-card">  
       <img src="../flight-logos/wizz-air-logo.png" alt="Flight" />
       <div className="info">
         <p style={{color : "#b3bbd3"}}>Depart</p>
@@ -60,7 +77,14 @@ const FlightCard: React.FC = () => {
         <p>12/11/2019</p>
         <p style={{color : "#636e8d"}} className="bold-text">1:21PM</p>
       </div>
+      
       <div className="price">
+        <p style={{color : "#9298b0"}} >Price</p>
+        <p style={{color : "#636e8d"}} className="bold-text">$ 980</p>
+      </div>
+      </div>
+
+      <div className="price price-2">
         <p style={{color : "#9298b0"}} >Price</p>
         <p style={{color : "#636e8d"}} className="bold-text">$ 980</p>
       </div>
@@ -69,6 +93,10 @@ const FlightCard: React.FC = () => {
 
 
     <div className="flight-card">
+
+    <img className="img-2" src="../flight-logos/british-airways-logo.png" alt="Flight" />
+
+    <div className="flight-flex-card">
       <img src="../flight-logos/british-airways-logo.png" alt="Flight" />
       <div className="info">
         <p style={{color : "#b3bbd3"}}>Depart</p>
@@ -96,10 +124,18 @@ const FlightCard: React.FC = () => {
         <p style={{color : "#9298b0"}} >Price</p>
         <p style={{color : "#636e8d"}} className="bold-text">$ 1012</p>
       </div>
+      </div>
+      <div className="price price-2">
+        <p style={{color : "#9298b0"}} >Price</p>
+        <p style={{color : "#636e8d"}} className="bold-text">$ 1012</p>
+      </div>
     </div>
 
 
     <div className="flight-card">
+            
+    <img className="img-2" src="../flight-logos/wizz-air-logo.png" alt="Flight" />
+    <div className="flight-flex-card"> 
       <img src="../flight-logos/wizz-air-logo.png" alt="Flight" />
       <div className="info">
         <p style={{color : "#b3bbd3"}}>Depart</p>
@@ -127,12 +163,22 @@ const FlightCard: React.FC = () => {
         <p style={{color : "#9298b0"}} >Price</p>
         <p style={{color : "#636e8d"}} className="bold-text">$ 908</p>
       </div>
+      </div>
+
+      <div className="price price-2">
+        <p style={{color : "#9298b0"}} >Price</p>
+        <p style={{color : "#636e8d"}} className="bold-text">$ 908</p>
+      </div>
     </div>
 
 
 
     <div className="flight-card">
-      <img src="../flight-logos/american-airlines.png" alt="Flight" />
+    <img className="img-2" src="../flight-logos/american-airlines.png " alt="Flight" />
+
+    <div className="flight-flex-card">
+    <img src="../flight-logos/american-airlines.png" alt="Flight" />
+
       <div className="info">
         <p style={{color : "#b3bbd3"}}>Depart</p>
         <p style={{color : "#9298b0"}} >11/11/2019</p>
@@ -156,6 +202,12 @@ const FlightCard: React.FC = () => {
         <p style={{color : "#636e8d"}} className="bold-text">1:21PM</p>
       </div>
       <div className="price">
+        <p style={{color : "#9298b0"}} >Price</p>
+        <p style={{color : "#636e8d"}} className="bold-text">$ 765</p>
+      </div>
+      </div>
+    
+      <div className="price price-2">
         <p style={{color : "#9298b0"}} >Price</p>
         <p style={{color : "#636e8d"}} className="bold-text">$ 765</p>
       </div>

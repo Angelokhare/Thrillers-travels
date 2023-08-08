@@ -1,3 +1,21 @@
+
+
+input:-webkit-autofill {transition: background-color 5000s ease-in-out 0s;}
+select:-webkit-autofill {transition: background-color 5000s ease-in-out 0s;}
+
+
+
+
+select{
+	/* background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%; */
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEuNDEgNC42NyAyLjQ4IDMuMTggMy41NCA0LjY3IDEuNDEgNC42NyIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIzLjU0IDUuMzMgMi40OCA2LjgyIDEuNDEgNS4zMyAzLjU0IDUuMzMiLz48L3N2Zz4=) no-repeat 95% 50%;
+  -moz-appearance: none; 
+	-webkit-appearance: none; 
+	appearance: none;
+}
+
+
+
 .form-container {
     font-family: 'Noto Sans', sans-serif;
     // align-items: center;
@@ -18,7 +36,16 @@
 
         @media (max-width: 880px) {
           width: 6vw;
-          }        
+          }   
+
+        @media (max-width: 750px) {
+            width: 8vw;
+            }          
+             
+        @media (max-width: 650px) {
+          width: 10vw;
+          padding: 2vw 3vw;
+          }       
       }
     }
   
@@ -53,6 +80,17 @@
     @media (max-width: 880px) {
           width: 3.5vw;
           }
+          
+    @media (max-width: 700px) {
+      width: 4.5vw;
+      margin-top: 2vw;
+
+      }
+                
+    @media (max-width: 550px) {
+      width: 6.5vw;
+      }
+
 
         }
         .img2 {
@@ -69,7 +107,16 @@
       font-size: 1.5vw;
 
       }
+                
+    @media (max-width: 700px) {
+      font-size: 2vw;
 
+      }
+                
+      @media (max-width: 550px) {
+        font-size: 2.5vw;
+  
+        }
         }
 
         &:hover {
@@ -85,6 +132,15 @@
                 
     @media (max-width: 880px) {
       width: 3.5vw;
+      }
+               
+    @media (max-width: 700px) {
+      width: 4.5vw;
+      margin-top: 2vw;
+      }
+                      
+    @media (max-width: 550px) {
+      width: 6.5vw;
       }
                 }
         
@@ -107,6 +163,24 @@
       font-size: 3.5vw;
 
       }
+                    
+    @media (max-width: 700px) {
+      font-size: 4vw;
+
+      }
+                          
+    @media (max-width: 650px) {
+        font-size: 5vw;
+  
+        }                        
+        @media (max-width: 550px) {
+          font-size: 6vw;
+    
+        }
+    
+        @media (max-width: 380px) {
+          font-size: 7vw;
+        }
         }
 
     .brand {
@@ -124,6 +198,33 @@
       margin-top: -3vw;
 
       }
+                         
+    @media (max-width: 700px) {
+      font-size: 4vw;
+      margin-bottom: 4vw;
+
+      }
+                                
+    @media (max-width: 650px) {
+      margin-top: -4vw;
+      font-size: 5vw;
+      margin-bottom: 5vw;
+
+
+      }                        
+    @media (max-width: 550px) {
+      margin-top: -5vw;
+      font-size: 6vw;
+      margin-bottom: 6vw;
+
+    }
+
+    @media (max-width: 380px) {
+      margin-top: -6vw;
+      font-size: 7vw;
+      margin-bottom: 6vw;
+
+    }
     }
   
     form {
@@ -135,6 +236,9 @@
         margin-left: 10vw;
   
         }        
+      @media (max-width: 500px) {
+        margin-left: 5vw;
+        }
 
           label {
         color: #000;
@@ -144,11 +248,60 @@
           margin-bottom: 1.5vw;
 
                       
+          @media (max-width: 1000px) {
+            font-size: 1.2vw;
+      
+            } 
+                      
           @media (max-width: 880px) {
             font-size: 1.5vw;
       
-            }          
+            }  
+                      
+          @media (max-width: 750px) {
+              font-size: 2vw;
+        
+              }                     
+                                    
+          @media (max-width: 550px) {
+            font-size: 2.5vw;
+      
+            }  
+                                                
+          @media (max-width: 450px) {
+            font-size: 3vw;
+      
+            }   
+                                                            
+          @media (max-width: 380px) {
+            font-size: 3.5vw;
+      
+            }                    
         }
+
+
+.div-display{
+  display: flex;
+  justify-content: space-between; /* Align items at the beginning and end of the container */
+  align-items: center; 
+  margin-right: 2.5vw;
+   
+                          
+  @media (max-width: 880px) {
+  margin-right: 12vw;
+
+    }   
+  @media (max-width: 500px) {
+      margin-right: 5vw;
+    
+        } 
+  @media (max-width: 450px) {
+    display: block;
+
+    }   
+}
+
+
 
 //^ kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk          Form Div
 
@@ -164,9 +317,13 @@
 
                       
         @media (max-width: 880px) {
-          margin-right: 12%;
+          margin-right: 12vw;
     
           }          
+        @media (max-width: 500px) {
+            margin-right: 5vw;
+            }  
+
     }
     .location-input{
         flex: 1 1 auto;
@@ -183,6 +340,7 @@
         /* border-radius: .3rem 0 0 .3rem; */
         outline: 0;
         width: 90%;
+        margin-left: -0.1vw;
         font-family: 'Archivo', sans-serif;
     }
 
@@ -197,16 +355,37 @@
             @media (max-width: 880px) {
               width: 3vw;
             }
+                                     
+            @media (max-width: 700px) {
+              width: 3.5vw;
+
+              }
+                                        
+            @media (max-width: 650px) {
+              width: 4vw;
+
+
+              }                        
+            @media (max-width: 550px) {
+              width: 5vw;
+
+            }
+
+            @media (max-width: 380px) {
+              width: 6vw;
+
+
+            }
           }
     }
 
     
     .departure-padding{
-        margin-right: -7%;
+        // margin-right: -7%;
 
         
         @media (max-width: 880px) {
-          margin-right: 13%;
+          margin-right: 0;
         }
     }
 
@@ -221,12 +400,22 @@
             margin-bottom: 1rem;
             margin-top: 0.5vw;
              margin-right: 15%;
+             width: 14.5vw;
+
             //  margin-left: 20%; 
 
-
             @media (max-width: 880px) {
-              margin-right: -36%;
+              width: 38vw;
             }
+            
+            @media (max-width: 500px) {
+              width: 44vw;
+            }
+                        
+            @media (max-width: 450px) {
+              width: 90vw;
+            }
+
         }
         .location-input{
             flex: 1 1 auto;
@@ -245,31 +434,18 @@
             width: 90%;
             font-family: 'Archivo', sans-serif;
         }
-    
-        .icon-button{
-            border: 2px solid rgba(84, 95, 125, 0.15);
-            padding: 0.8vw 1.5vw;
-            padding-right: 0;
-    
-            img {
-                width: 2vw;
-                // vertical-align: middle;
-                @media (max-width: 880px) {
-                  width: 3vw;
-                }
-              }
-        }
+
 
 
 
 //^ kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk          Class Div
     
 .booking-padding{
-    margin-right: 6%;
+    // margin-right: 6%;
 
     
     @media (max-width: 880px) {
-      margin-right: 13%;
+      margin-right: 0;
     }
 }
 
@@ -282,10 +458,18 @@
   margin-top: 0.5vw;
    margin-right: -10%;
   //  margin-left: 20%; 
-
+  width: 14.5vw;
 
   @media (max-width: 880px) {
-    margin-right: -36%;
+    width: 38vw;
+  }
+              
+  @media (max-width: 500px) {
+    width: 44vw;
+  }
+                          
+  @media (max-width: 450px) {
+    width: 90vw;
   }
 }
 
@@ -297,7 +481,15 @@
                               
         @media (max-width: 880px) {
           margin-right: 10.5vw;
-          }            
+          }        
+                                        
+        @media (max-width: 700px) {
+          margin-right: 11.5vw;
+          }   
+                                        
+        @media (max-width: 500px) {
+          margin-right: 5.5vw;
+          }     
       }
   
       .find-flight-button {
@@ -326,6 +518,26 @@
           padding: 1.5vw 2vw;
           font-size: 1.7vw;  
           }    
+                                        
+        @media (max-width: 750px) {
+          padding: 2vw 2vw;
+          font-size: 2.2vw;  
+          }   
+                                        
+        @media (max-width: 550px) {
+          padding: 2.5vw 2vw;
+          font-size: 2.5vw;  
+          }   
+                                                  
+        @media (max-width: 450px) {
+          padding: 3vw 2vw;
+          font-size: 3.5vw;  
+          }  
+                                                  
+        @media (max-width: 550px) {
+          padding: 3.5vw 2vw;
+          font-size: 4.5vw;  
+          }  
       }
     }
 

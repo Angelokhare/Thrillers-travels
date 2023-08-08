@@ -40,7 +40,7 @@ const Form: React.FC = () => {
     <div className="form-container">
       <div className="icon">
         {/* Replace with your icon */}
-        <img src="../home-icon.png" alt="Icon" />
+        <a href="https://thrillers-travels.netlify.com/"><img src="../home-icon.png" alt="Icon" /></a>
       </div>
       <div className="info">
         <div style={{backgroundColor : "#537943"}} className="info-item">
@@ -126,7 +126,7 @@ const Form: React.FC = () => {
 
         {/* Add similar input-group for 'arrive' */}
 
-        <div style={{display: "flex"}}>
+        <div className='div-display'>
 
 <div className='departure-padding'>
           <label htmlFor="departureDate">Departure Date</label>
@@ -174,7 +174,7 @@ const Form: React.FC = () => {
 
 
  {/* //^ kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk          Booking */}
-<div style={{display: "flex"}}>
+<div className='div-display'>
 
 <div className='booking-padding'>
           <label htmlFor="class">Class</label>
